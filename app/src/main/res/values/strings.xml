@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">PC-CARE</string>
+    <string name="suppiler_Home">Supplier</string>
+    <string name="update_supplier">Update</string>
+    <string name="Customer_Add_Det">Customer</string>
+    <string name="update_customer">Update</string>
+    <string name="income">Income</string>
+    <string name="cusname">Name</string>
+    <string name="cusdevice">Device</string>
+    <string name="cusissue">Issues</string>
+    <string name="cusparts">Parts</string>
+    <string name="custotalamount">Total Amount</string>
+    <string name="cuspaid">Paid:</string>
+    <string name="cusphoneno">Phone No</string>
+    <string name="supplierpaytxt">Supplier Payaments</string>
+    <string name="employyepay">Employees Payments</string>
+    <string name="expneditures">Expenditures</string>
+    <string name="totalprofit">Total Profit</string>
+    <string name="supname">Name</string>
+    <string name="supaddress">Address</string>
+    <string name="supitems">Items</string>
+    <string name="supamount">Total Amount</string>
+    <string name="suppaid">Paid</string>
+    <string name="supphone">Phone No</string>
+
+</resources>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Supplier_Add_Details"
+    android:background="@drawable/back"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="155dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginBottom="559dp"
+        android:text="@string/update_supplier"
+        android:textColor="@color/custitlecolor"
+        android:textSize="25dp"
+
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="181dp" />
+
+    <EditText
+        android:id="@+id/updatesuppliertxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="449dp"
+        android:ems="10"
+        android:hint="@string/supname"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/updatesupaddresstxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="384dp"
+        android:ems="10"
+        android:hint="@string/supaddress"
+        android:inputType="textPostalAddress" />
+
+    <TextView
+        android:id="@+id/typesview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="295dp"
+        android:layout_marginBottom="327dp"
+        android:text="@string/supitems"
+        android:textColor="@color/colorbuttontext"
+        android:textSize="25dp"
+
+        />
+
+    <CheckBox
+        android:id="@+id/updatesupinternalpartschkbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="325dp"
+        android:text="Internal Parts"
+        android:textColor="@color/colorbuttontext"
+        android:textSize="15dp" />
+
+    <CheckBox
+        android:id="@+id/updatesupexternalparts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="325dp"
+        android:text="External Parts" />
+
+    <TextView
+        android:id="@+id/Paidview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="297dp"
+        android:layout_marginBottom="226dp"
+        android:text="@string/suppaid"
+        android:textColor="@color/colorbuttontext"
+        android:textSize="25dp" />
+
+
+    <EditText
+        android:id="@+id/updatesupphonetxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="171dp"
+        android:ems="10"
+        android:hint="@string/supphone"
+        android:inputType="phone"
+
+        />
+
+    <Button
+        android:id="@+id/updatesup"
+        android:layout_width="261dp"
+        android:layout_height="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="118dp"
+        android:background="@drawable/pages_buttons"
+        android:text="OK"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/vsendsupsmsbtn"
+        android:layout_width="261dp"
+        android:layout_height="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="33dp"
+        android:background="@drawable/pages_buttons"
+        android:text="SEND SMS"
+        android:textColor="#ffffff" />
+
+    <CheckBox
+        android:id="@+id/updateYespaysupchkbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="207dp"
+        android:layout_marginBottom="227dp"
+        android:text="Yes" />
+
+    <CheckBox
+        android:id="@+id/updateNopaysupchkbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="226dp"
+        android:text="No" />
+
+    <EditText
+        android:id="@+id/updatesuptotalamounttxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="273dp"
+        android:ems="10"
+        android:hint="@string/supamount"
+        android:inputType="numberDecimal" />
+
+
+</RelativeLayout>

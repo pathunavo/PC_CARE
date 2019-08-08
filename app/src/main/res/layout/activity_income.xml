@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".Income">
+
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="143dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="550dp"
+        android:text="@string/income"
+        android:textColor="@color/custitlecolor"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/incomesavetxt"
+        android:layout_width="261dp"
+        android:layout_height="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="27dp"
+        android:background="@drawable/pages_buttons"
+        android:text="CALCULATE"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.83"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/incomepaytxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="459dp"
+        android:ems="10"
+        android:hint="@string/income"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/supplierpaytxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="389dp"
+        android:ems="10"
+        android:hint="@string/supplierpaytxt"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/employeepaytxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="320dp"
+        android:ems="10"
+        android:hint="@string/employyepay"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/expenditurestxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="248dp"
+        android:ems="10"
+        android:hint="@string/expneditures"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/totalprofittxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="179dp"
+        android:ems="10"
+        android:hint="@string/totalprofit"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/viewinformationincomebtn"
+        android:layout_width="261dp"
+        android:layout_height="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="114dp"
+        android:background="@drawable/pages_buttons"
+        android:text="VIEW INFORMATION"
+        android:textColor="#ffffff"
+        />
+
+
+</RelativeLayout>
