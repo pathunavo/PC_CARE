@@ -7,21 +7,21 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class Dashboard extends AppCompatActivity {
-    ImageButton button;
+public class StockHome extends AppCompatActivity {
+    ImageButton button1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_dashboard);
+        setContentView(R.layout.activity_stock_home);
 
-        button = findViewById(R.id.imagbtnstock);
-        button.setOnClickListener(new View.OnClickListener() {
+        button1= findViewById(R.id.motherbord_btn);
+        button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),StockHome.class);
+                Intent intent = new Intent(getApplicationContext(),MotherbordList.class);
                 startActivity(intent);
             }
         });
-
     }
+
 }
