@@ -9,17 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Customers_View_Records"></activity>
-        <activity android:name=".Income">
-        </activity>
-        <activity android:name=".Update_Customer_Det">
-        </activity>
-        <activity android:name=".Customer_Add_Details">
-        </activity>
-        <activity android:name=".Update_Supplier_Details">
-        </activity>
-        <activity android:name=".Supplier_Add_Details" >
-        </activity>
+        <activity android:name=".Push_item"></activity>
+        <activity android:name=".Pull_item" />
+        <activity android:name=".update_delete_item" />
+        <activity android:name=".AddItem" />
+        <activity android:name=".MotherbordList" />
+        <activity android:name=".StockHome" />
+        <activity android:name=".Customers_View_Records" />
+        <activity android:name=".Income" />
+        <activity android:name=".Update_Customer_Det" />
+        <activity android:name=".Customer_Add_Details" />
+        <activity android:name=".Update_Supplier_Details" />
+        <activity android:name=".Supplier_Add_Details" />
         <activity android:name=".Dashboard">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
